@@ -10,6 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="edu.ipc2.usac.ipc2vd2016.MainActivity">
 
+
     <Button
         android:id="@+id/boton1"
         android:layout_height="wrap_content"
@@ -17,12 +18,21 @@
         android:onClick="onClick1"
         android:text="Click me"
         />
+    <Button
+        android:layout_above="@id/boton1"
+        android:id="@+id/button3"
+        android:text="show Toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick3"
+        />
     <TextView
         android:layout_below="@id/boton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/text1"
         />
+
     <Button
         android:layout_below="@id/text1"
         android:id="@+id/button2"
@@ -31,6 +41,8 @@
         android:layout_height="wrap_content"
         android:onClick="onClick2"
         />
+
+
 
 
 </RelativeLayout>
