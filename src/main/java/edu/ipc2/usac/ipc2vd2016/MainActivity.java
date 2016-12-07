@@ -32,4 +32,10 @@ public class MainActivity extends AppCompatActivity {
         //This will whos a toast
         Toast.makeText(this,"This is a Toast", Toast.LENGTH_LONG );
     }
+    public void onClick4(View v){
+        //This will whos a toast
+        TextView text1 = (TextView) findViewById(R.id.text1);
+        text1.setText("Good bye");
+
+    }
 }

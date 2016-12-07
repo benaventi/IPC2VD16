@@ -18,14 +18,7 @@
         android:onClick="onClick1"
         android:text="Click me"
         />
-    <Button
-        android:layout_above="@id/boton1"
-        android:id="@+id/button3"
-        android:text="show Toast"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="onClick3"
-        />
+
     <TextView
         android:layout_below="@id/boton1"
         android:layout_width="wrap_content"
@@ -41,7 +34,22 @@
         android:layout_height="wrap_content"
         android:onClick="onClick2"
         />
+    <Button
+        android:layout_below="@id/text1"
+        android:id="@+id/button3"
+        android:text="show Toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick3"
+        />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick4"
+        android:text="last method"
+        android:layout_below="@id/button3"
+        />
 
 
 
