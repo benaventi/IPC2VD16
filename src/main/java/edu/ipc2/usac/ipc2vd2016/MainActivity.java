@@ -22,4 +22,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    public void onClick2(View v){
+        this.finishActivity(1);
+    }
 }
